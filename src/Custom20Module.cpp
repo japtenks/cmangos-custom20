@@ -1,8 +1,8 @@
 #include "Custom20Module.h"
 #include "Custom20ModuleConfig.h"
 #include "Entities/Player.h"
-#include "Log.h"
-#include "Util.h"
+#include "Log/Log.h"
+#include "Globals/SharedDefines.h"
 
 namespace cmangos_module
 {
