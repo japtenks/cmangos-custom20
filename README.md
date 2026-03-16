@@ -1,4 +1,8 @@
 # Custom20
+
+Credit goes to Sagrid
+https://github.com/Sagrid-Argus/Tweaks-and-Mods/releases
+
 Custom20 introduces a new tier of mounts available at level 20 for all races in World of Warcraft (1.12.1). The goal is to enhance early-game exploration and mobility while preserving the original pacing and feel of the game.
 
 Before now, traveling long distances on foot before level 40 could feel restrictive, and AI PlayerBots were limited by legacy restrictions. Custom20 solves both problems by introducing:
@@ -22,3 +26,4 @@ To remove the Custom20 from your server you have multiple options, the first and
 1. Remove the `BUILD_MODULE_custom20` flag from your cmake configuration and recompile the game
 2. Execute the sql queries located in the `src/modules/custom20/sql/uninstall` folder. Each folder inside represents where you should execute the queries. E.g. The queries inside of `src/modules/custom20/sql/uninstall/world` will need to be executed in the world/mangosd database, the ones in `src/modules/custom20/sql/uninstall/characters` in the characters database, etc...
 3. Restore the orginal dbcs.
+
